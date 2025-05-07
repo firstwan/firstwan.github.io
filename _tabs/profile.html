@@ -1,0 +1,85 @@
+---
+# the default layout is 'page'
+icon: fas fa-info-circle
+order: 4
+---
+{% include lang.html %}
+
+{%- capture resume_url -%}
+  {% include media-url.html src="https://porfolio-cnd.netlify.app/common/SoftwareEngineer_WanSiewYik.pdf" %}
+{%- endcapture -%}
+
+<section class="text-center">
+  <h1 class="">Hi, I'm {{ site.social.name }}</h1>
+  <p class="">
+    I'm a software engineer with experience developing scalable web applications, designing RESTful API services, and
+    architecting robust database schemas. I prioritize writing clean, maintainable code and continuously refine my
+    skills across modern development tools and frameworks.
+  </p>
+  <div class="justify-center">
+    <a href="{{ resume_url }}" target="_blank">
+      <i class="fa fa-download fa-2x" alt="Resume" title="Resume"></i>
+    </a>
+  </div>
+</section>
+
+<div id="experiences">
+  <h2>
+    {{ site.data.locales[lang].profile.experiences | default: site.data.locales[lang].profile }}
+  </h2>
+  <ul class="timeline">
+    {% for item in site.data.profile.experiences %}
+      <li>
+        <div class="lead fw-bold">
+          {{ item.title }} at <span>{{ item.company }}</span>
+        </div>
+        {% comment %} Assign start date and end date {% endcomment %}
+        <p class="fst-italic">
+          <span>{{ item.start_date | date: '%Y %b' }}</span>
+          --
+          {% if item.end_date %}
+            <span>{{ item.end_date | date: '%Y %b' }}</span>
+          {% else %}
+            Present
+          {% endif %}
+        </p>
+        <p>{{ site.data.locales[lang].profile.responsibility }}</p>
+        <ul>
+          {% for responsible in item.responsibility %}
+            <li>
+              {{ responsible }}
+            </li>
+          {% endfor %}
+        </ul>
+        {% if item.achievements %}
+          <p>{{ site.data.locales[lang].profile.achievements }}</p>
+          <ul>
+            {% for achieve in item.achievements %}
+              <li>
+                {{ achieve }}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<section>
+  <h2>
+    {{ site.data.locales[lang].profile.tech_stack }}
+  </h2>
+  {% for skill in site.data.profile.skills %}
+    <h3>{{ skill.type }}</h3>
+    <div class="hstack gap-3">
+      {% for tech in skill.techs %}
+        {% if tech.icon %}
+          <i class="{{ tech.icon }} fa-2x" title="{{ tech.name }}"></i>
+        {% else %}
+          <span class="fs-4">{{ tech.name }}</span>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endfor %}
+</section>

@@ -1,0 +1,37 @@
+@use '../abstracts/placeholders';
+
+#project-list {
+  .card {
+    border: 0;
+    background: none;
+    height: 100%;
+
+    img {
+      aspect-ratio: 2/1;
+    }
+
+    .card-body {
+      .card-title {
+        color: var(--heading-color) !important;
+      }
+    }
+
+    .card-text {
+      &.content {
+        color: var(--text-muted-color) !important;
+      }
+    }
+  }
+
+  .tech-pill {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+
+    span {
+      font-size: 0.9rem;
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  }
+}

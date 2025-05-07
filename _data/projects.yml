@@ -1,0 +1,28 @@
+- name: Online CV
+  description: >-
+    This is my online CV.
+    A very simple static web page developed with Angular v19.
+    The objective of this project is to learn and practice Angular.
+  github_url: https://github.com/firstwan/angular_cv
+  demo_url: https://firstwan-cv.netlify.app/
+  tools:
+    - Angular
+    - HTML
+    - CSS
+  image:
+    path: /projects/angular_cv.png
+    alt:
+- name: Personal bloger
+  description: >-
+    This is my personal bloger website developed with Jekyll.
+    This project used theme Chirpy from cotes2020/jekyll-theme-chirpy.
+    I will update my technical research into this website time to time.
+  github_url: https://github.com/firstwan/firstwan.github.io
+  demo_url: https://firstwan.github.io/
+  tools:
+    - Jekyll
+    - HTML
+    - CSS
+  image:
+    path: /projects/personal_blog.png
+    alt:

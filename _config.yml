@@ -14,19 +14,20 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: First Wan's Personal Blog # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: >- # it will display as the subtitle
+  A self-learn cyber security student who will break into cyber security world in the future.
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  A minimal, responsive and feature-rich Jekyll theme for Wan Siew Yik technical writing.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://firstwan.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: firstwan # change to your GitHub username
 
 twitter:
   username: twitter_username # change to your Twitter username
@@ -34,15 +35,15 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Wan Siew Yik
+  email: firstwan95@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    # - https://twitter.com/username
+    - https://github.com/firstwan # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/firstwan
 
 # Site Verification Settings
 webmaster_verifications:
@@ -94,8 +95,8 @@ theme_mode: # [light | dark]
 # Notice that once it is assigned, the CDN url
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
-# e.g. 'https://cdn.com'
-cdn: "https://chirpy-img.netlify.app"
+# e.g. 'https://chirpy-img.netlify.app'
+cdn: "https://porfolio-cnd.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/commons/avatar.jpg"
@@ -215,6 +216,7 @@ exclude:
   - purgecss.js
   - rollup.config.js
   - "package*.json"
+  - "_tabs/archives.md"
 
 jekyll-archives:
   enabled: [categories, tags]

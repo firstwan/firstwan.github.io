@@ -14,7 +14,8 @@ tabs:
   categories: Categories
   tags: Tags
   archives: Archives
-  about: About
+  profile: Profile
+  projects: Projects
 
 # the text displayed in the search bar & search results
 search:
@@ -89,3 +90,10 @@ categories:
   post_measure:
     singular: post
     plural: posts
+
+# Profile page
+profile:
+  tech_stack: Tech Stack
+  experiences: Experiences
+  responsibility: Responsibility
+  achievements: Achievements

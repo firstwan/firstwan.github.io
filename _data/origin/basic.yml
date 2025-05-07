@@ -37,3 +37,6 @@ clipboard:
 
 mathjax:
   js: /assets/lib/mathjax/tex-chtml.js
+
+devicon:
+  css: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css
