@@ -14,6 +14,16 @@
       .card-title {
         color: var(--heading-color) !important;
       }
+
+      .card-btn-group {
+        z-index: 1;
+
+        a:hover {
+          color: var(--bs-btn-hover-color) !important;
+          background-color: var(--bs-btn-hover-bg);
+          border-color: var(--bs-btn-hover-border-color);
+        }
+      }
     }
 
     .card-text {
