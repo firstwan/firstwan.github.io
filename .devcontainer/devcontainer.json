@@ -3,6 +3,9 @@
   "image": "mcr.microsoft.com/devcontainers/jekyll:2-bullseye",
   "onCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
   "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "mounts": [
+    "source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
+  ],
   "customizations": {
     "vscode": {
       "settings": {
