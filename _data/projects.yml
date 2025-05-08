@@ -3,8 +3,13 @@
     This is my online CV.
     A very simple static web page developed with Angular v19.
     The objective of this project is to learn and practice Angular.
-  github_url: https://github.com/firstwan/angular_cv
-  demo_url: https://firstwan-cv.netlify.app/
+  links:
+    - type: github
+      url: https://github.com/firstwan/angular_cv
+      icon: fa-brands fa-github
+    - type: demo
+      url: https://firstwan-cv.netlify.app/
+      icon: fa-solid fa-globe
   tools:
     - TypeScript
     - Angular
@@ -13,13 +18,19 @@
   image:
     path: /projects/angular_cv.png
     alt: Angular cv
+
 - name: Personal bloger
   description: >-
     This is my personal bloger website developed with Jekyll.
     This project used theme Chirpy from cotes2020/jekyll-theme-chirpy.
     I will update my technical research into this website time to time.
-  github_url: https://github.com/firstwan/firstwan.github.io
-  demo_url: https://firstwan.github.io/
+  links:
+    - type: github
+      url: https://github.com/firstwan/firstwan.github.io
+      icon: fa-brands fa-github
+    - type: demo
+      url: https://firstwan.github.io/
+      icon: fa-solid fa-globe
   tools:
     - JavaScript
     - Jekyll
@@ -28,12 +39,18 @@
   image:
     path: /projects/personal_blog.png
     alt: Personal Blog
+
 - name: UI Animation
   description: >-
     This is a fun and simple web animation project.
     It contains various UI animation designs developed with pure HTML, CSS, and JavaScript.
-  github_url: https://github.com/firstwan/FrontendDesign
-  demo_url: https://first-ui-animation.netlify.app/
+  links:
+    - type: github
+      url: https://github.com/firstwan/FrontendDesign
+      icon: fa-brands fa-github
+    - type: demo
+      url: https://first-ui-animation.netlify.app/
+      icon: fa-solid fa-globe
   tools:
     - JavaScript
     - HTML
@@ -41,3 +58,152 @@
   image:
     path: /projects/ui_animation.png
     alt: UI Animation
+
+- name: CSIT SE Challenge 2024
+  description: >-
+    CSIT SE Challenge 2024 requires downloading and sanitizing a corrupted data set, and then sorting out the top 10 restaurants from the data set.
+  links:
+    - type: github
+      url: https://github.com/firstwan/csit-se-challenge-2024
+      icon: fa-brands fa-github
+  tools:
+    - Python
+    - Jupyter Notebook
+    - Max Priority Queue
+    - Docker
+  image:
+    path: /projects/csit_2024_badge.png
+    alt: CSIT 2024 Badge
+
+- name: Payment Agregator System
+  description: >-
+    This is one of the project I work on for previous company.
+    This project integrate multiple payment vendors who support different payment method like Paypal, Credit Card, GrabPay, and etc.
+    Serve as a middle man between consumers and payment vendor.
+    This payment aggregator system help consumers eliminate the need of integrate different vendor to support different payment method.
+  links:
+  tools:
+    - .Net Core 3
+    - EF Core
+    - RESTFul API
+    - MySql
+    - Docker
+    - Template design pattern
+  image:
+
+- name: Gift code distribution platform
+  description: >-
+    This is one of the project I work on for previous company.
+    A B2B platform for retailers place order on digital gift code and sell to their customers.
+  links:
+  tools:
+    - .Net Core 5
+    - EF Core
+    - RESTFul API
+    - MySql
+    - Docker
+  image:
+
+- name: Azure SIEM Honeypot
+  description: >-
+    Set up an Azure SIEM that aggregates logs and detects intruders from which country based on the IP addresses.
+  links:
+    - type: doc
+      url: https://almondine-patio-91e.notion.site/Azure-SIEM-40b70aa13c374e2fac18cde2609db53d
+      icon: fa-solid fa-arrow-up-right-from-square
+  tools:
+    - Azure
+    - SIEM
+    - Honeypot
+    - SOC
+  image:
+    path: /blogs/azure_siem/siem_overview.png
+    alt: Azure SIEM
+
+- name: ELK SIEM Server
+  description: >-
+    Set up an ELK SIEM on virtual machine that aggregates logs from other machines with an Elastic alert to detect any brute force attempt.
+  links:
+    - type: doc
+      url: https://docs.google.com/document/d/1m-GjXPaztNhTjHj5QFmbi-yaJe3XKmWKoxXfjztCIOc/edit?tab=t.0#heading=h.oycgskol9t3q
+      icon: fa-solid fa-arrow-up-right-from-square
+  tools:
+    - ELK
+    - SIEM
+    - SOC
+  image:
+    path: /blogs/elk_server/elk_server_overview.png
+    alt: ELK Server Overview
+
+- name: ELK EDR
+  description: >-
+    Confi gured EDR in ELK and installed EDR agent into a Linux virtual machine aggregate logs and analyze the virtual machine to detect abnormal behaviour.
+  links:
+    - type: doc
+      url: https://almondine-patio-91e.notion.site/Elastic-EDR-b75638c4578e40929e9a184aecbf6624
+      icon: fa-solid fa-arrow-up-right-from-square
+  tools:
+    - ELK
+    - EDR
+    - SIEM
+    - SOC
+  image:
+
+- name: Auth Log Analyzer
+  description: >-
+    An automation script that can extract details such as user creation, user deletions, password updates, and users who executed sudo commands from auth.log.
+  links:
+    - type: github
+      url: https://github.com/firstwan/log_analyzer
+      icon: fa-brands fa-github
+    - type: doc
+      url: https://docs.google.com/document/d/1XBEgIlWnNRETpKHQmoHvLuHWpvTpb9lVheaqu_lnMTI/edit?tab=t.0#heading=h.oycgskol9t3q
+      icon: fa-solid fa-arrow-up-right-from-square
+  tools:
+    - Bash
+    - SOC
+  image:
+
+- name: Remote Network Scanning
+  description: >-
+    An automation Bash script that run scanning on target’s network from a virtual machine under my control via Nipe VPN.
+  links:
+    - type: github
+      url: https://github.com/firstwan/remote_scanner
+      icon: fa-brands fa-github
+    - type: doc
+      url: https://docs.google.com/document/d/1gSMRt3LgDTw1tCTPTPEgbb15P7EWjQzFXxYxT-o4CNU/edit?tab=t.0#heading=h.oycgskol9t3q
+      icon: fa-solid fa-arrow-up-right-from-square
+  tools:
+    - Bash
+    - Pentest
+  image:
+
+- name: Vulnerability Scanning
+  description: >-
+    An automation Bash script run basic vulnerability assessment on target’s network and generate a summary included open port discovered, weak password used.
+  links:
+    - type: github
+      url: https://github.com/firstwan/vulner
+      icon: fa-brands fa-github
+    - type: doc
+      url: https://docs.google.com/document/d/18QPqQ9LBg_HKHjuUvm8OXgTSAIP8504E9Uo_N0m4KKU/edit?tab=t.0#heading=h.oycgskol9t3q
+      icon: fa-solid fa-arrow-up-right-from-square
+  tools:
+    - Bash
+    - Pentest
+  image:
+# - name:
+#   description: >-
+#   links:
+#     - type: github
+#       url:
+#       icon: fa-brands fa-github
+#     - type: demo
+#       url:
+#       icon: fa-solid fa-globe
+#   tools:
+#     -
+#   image:
+#     path:
+#     alt:

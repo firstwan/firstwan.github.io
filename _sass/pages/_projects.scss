@@ -35,8 +35,8 @@
 
   .tech-pill {
     display: flex;
-    flex-direction: row;
     gap: 0.5rem;
+    flex-flow: row wrap;
 
     span {
       font-size: 0.9rem;

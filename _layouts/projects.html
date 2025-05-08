@@ -9,7 +9,7 @@ layout: page
     {% for project in site.data.projects %}
       <div class="col mb-3">
         <article class="card post-preview">
-          {% if project.image %}
+          {% if project.image.path %}
             {%- capture project_image -%}
             {% include media-url.html src=project.image.path %}
           {%- endcapture -%}
@@ -32,18 +32,16 @@ layout: page
               {% endfor %}
             </div>
 
-            <div class="card-btn-group">
-              {% if project.github_url %}
-                <a href="{{ project.github_url }}" class="btn btn-secondary" target="_blank"
-                  >GitHub<i class="fa-brands fa-github ms-2"></i
-                ></a>
-              {% endif %}
-              {% if project.demo_url %}
-                <a href="{{ project.demo_url }}" class="btn btn-secondary" target="_blank"
-                  >Demo<i class="fa-solid fa-arrow-up-right-from-square ms-2"></i
-                ></a>
-              {% endif %}
-            </div>
+            {% if project.links %}
+              <div class="card-btn-group">
+                {% for link in project.links %}
+                  <a href="{{ link.url }}" class="btn btn-secondary" target="_blank">
+                    {{ link.type | capitalize }}
+                    <i class="{{ link.icon }} ms-2"></i
+                  ></a>
+                {% endfor %}
+              </div>
+            {% endif %}
           </div>
         </article>
       </div>
