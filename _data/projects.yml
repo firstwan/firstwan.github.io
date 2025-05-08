@@ -6,12 +6,13 @@
   github_url: https://github.com/firstwan/angular_cv
   demo_url: https://firstwan-cv.netlify.app/
   tools:
+    - TypeScript
     - Angular
     - HTML
     - CSS
   image:
     path: /projects/angular_cv.png
-    alt:
+    alt: Angular cv
 - name: Personal bloger
   description: >-
     This is my personal bloger website developed with Jekyll.
@@ -20,9 +21,23 @@
   github_url: https://github.com/firstwan/firstwan.github.io
   demo_url: https://firstwan.github.io/
   tools:
+    - JavaScript
     - Jekyll
     - HTML
     - CSS
   image:
     path: /projects/personal_blog.png
-    alt:
+    alt: Personal Blog
+- name: UI Animation
+  description: >-
+    This is a fun and simple web animation project.
+    It contains various UI animation designs developed with pure HTML, CSS, and JavaScript.
+  github_url: https://github.com/firstwan/FrontendDesign
+  demo_url: https://first-ui-animation.netlify.app/
+  tools:
+    - JavaScript
+    - HTML
+    - CSS
+  image:
+    path: /projects/ui_animation.png
+    alt: UI Animation
