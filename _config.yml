@@ -99,7 +99,7 @@ theme_mode: # [light | dark]
 cdn: "https://porfolio-cnd.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar: "/commons/avatar.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -217,6 +217,7 @@ exclude:
   - rollup.config.js
   - "package*.json"
   - "_tabs/archives.md"
+  - archives
 
 jekyll-archives:
   enabled: [categories, tags]
