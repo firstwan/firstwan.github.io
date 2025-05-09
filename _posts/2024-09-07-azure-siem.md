@@ -247,7 +247,7 @@ After finish the lab practice, we need to clean up the machine and service creat
 
 ## References
 - [SC-200T00A-Microsoft-Security-Operations-Analyst](https://microsoftlearning.github.io/SC-200T00A-Microsoft-Security-Operations-Analyst/)
-- [SIEM Tutorial for Beginners | Azure Sentinel Tutorial MAP with LIVE CYBER ATTACKS!](https://www.youtube.com/watch?v=RoZeVbbZ0o0&t=466s)
+- [SIEM Tutorial for Beginners](https://www.youtube.com/watch?v=RoZeVbbZ0o0&t=466s)
 - [Collect logs from text files with the Azure Monitor Agent and ingest to Microsoft Sentinel - AMA](https://learn.microsoft.com/en-us/azure/sentinel/connect-custom-logs-ama?tabs=portal)
 - [Data collection endpoints in Azure Monitor - Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview?tabs=portal)
 - [Migration of custom fields to KQL-based transformations in Azure Monitor - Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/custom-fields-migrate)
