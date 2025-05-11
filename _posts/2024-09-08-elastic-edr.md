@@ -4,7 +4,7 @@ description: >-
   Confi gured EDR in ELK and installed EDR agent into a Linux virtual machine aggregate logs and analyze the virtual machine to detect abnormal behaviour.
 author: first_wan
 categories: [Cybersecurity]
-tags: [SIEM, SOC]
+tags: [SIEM, SOC, ELK]
 pin: true
 ---
 
@@ -62,7 +62,7 @@ An agent is an application running in device’s background to collect and send 
 7. Once the agent finished install, you will see a message mentioning “Elastic Agent has been successfully installed”. It will start collecting the information in the device and forward it to Elastic platform for analysis. You can verify the generated log files on Linux with this file page: `/opt/Elastic/Endpoint/state/log`{: .filepath}, but this folder required root user privilege to access.
    
    You can also verify is the Elastic agent running in you device by this command:
-   ```{bash}
+   ```bash
    systemctl status elastic-agent.service
    ```
    ![elastic_edr_image](/blogs/elastic_edr/elastic_agent_7.png)
