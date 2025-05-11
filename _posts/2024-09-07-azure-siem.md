@@ -5,7 +5,7 @@ description: >-
 author: first_wan
 categories: [Cybersecurity]
 tags: [SIEM, SOC]
-pin: false
+pin: true
 ---
 
 This showcase is for my lab practice. I setup a Azure SIEM to gather the event data that try to break into my VM machine, and show a map to see where the attack come from.
