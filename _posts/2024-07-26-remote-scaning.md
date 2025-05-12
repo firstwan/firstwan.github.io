@@ -236,7 +236,7 @@ On the other hand, although automated scripts are very convenient to use, we nee
 
 ## Reference
 
-* [*Gite, Vivek. “How to Find out If Package Is Installed in Linux.” NixCraft, 30 Apr. 2006*](www.cyberciti.biz/faq/find-out-if-package-is-installed-in-linux/.)
+* [*Gite, Vivek. “How to Find out If Package Is Installed in Linux.” NixCraft, 30 Apr. 2006*](https://www.cyberciti.biz/faq/find-out-if-package-is-installed-in-linux/)
 * [*How can I check if a package is installed and install it if not? (n.d.-a). Stack Overflow.*](https://stackoverflow.com/questions/1298066/how-can-i-check-if-a-package-is-installed-and-install-it-if-not)
 * [*Stork, V. (2023, January 18). Bash Array – How to Declare an Array of Strings in a Bash Script. freeCodeCamp.org.*](https://www.freecodecamp.org/news/bash-array-how-to-declare-an-array-of-strings-in-a-bash-script/)
 * [*Passing parameters to a Bash function. (n.d.). Stack Overflow.*](https://stackoverflow.com/questions/6212219/passing-parameters-to-a-bash-function)  
