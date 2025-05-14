@@ -3,7 +3,7 @@ title: Automate reconnaissance bash script
 description: >-
   Create a bash script that run reconnaissance scan from another machine over a VPN.
 author: first_wan
-categories: [Cybersecurity]
+categories: [Cybersecurity, Project]
 tags: [bash, automate, practice]
 pin: false
 ---

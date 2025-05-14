@@ -3,7 +3,7 @@ title: Vulnerability Scanning Bash Script
 description: >-
   An automation Bash script run basic vulnerability assessment on target’s network and generate a summary included open port discovered, weak password used.
 author: first_wan
-categories: [Cybersecurity]
+categories: [Cybersecurity, Project]
 tags: [bash, automate, practice]
 pin: false
 ---

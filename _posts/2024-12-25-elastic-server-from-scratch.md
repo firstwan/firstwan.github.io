@@ -3,7 +3,7 @@ title: Setup Elastic server in Ubuntu from scratch
 description: >-
   Setup a new Elastic server from download and install the machine's OS to install the Elastic from package. 
 author: first_wan
-categories: [Cybersecurity]
+categories: [Cybersecurity, Project]
 tags: [SIEM, SOC, ELK]
 pin: true
 ---

@@ -3,7 +3,7 @@ title: Bash script that extract system information
 description: >-
   Create a bash script that extract system informaion and generate a summary.
 author: first_wan
-categories: [Cybersecurity]
+categories: [Cybersecurity, Project]
 tags: [bash, automate, practice]
 pin: false
 ---

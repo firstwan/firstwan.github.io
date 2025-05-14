@@ -3,7 +3,7 @@ title: Azure SIEM
 description: >-
   Set up an Azure SIEM that aggregates logs and detects intruders from which country based on the IP addresses.
 author: first_wan
-categories: [Cybersecurity]
+categories: [Cybersecurity, Project]
 tags: [SIEM, SOC]
 pin: true
 ---

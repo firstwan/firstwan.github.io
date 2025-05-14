@@ -3,7 +3,7 @@ title: Elastic EDR
 description: >-
   Confi gured EDR in ELK and installed EDR agent into a Linux virtual machine aggregate logs and analyze the virtual machine to detect abnormal behaviour.
 author: first_wan
-categories: [Cybersecurity]
+categories: [Cybersecurity, Project]
 tags: [SIEM, SOC, ELK]
 pin: true
 ---
