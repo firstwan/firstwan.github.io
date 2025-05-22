@@ -35,7 +35,7 @@ layout: page
             {% if project.links %}
               <div class="card-btn-group">
                 {% for link in project.links %}
-                  <a href="{{ link.url }}" class="btn btn-secondary" target="_blank">
+                  <a href="{{ link.url | relative_url }}" class="btn btn-secondary" target="_blank">
                     {{ link.type | capitalize }}
                     <i class="{{ link.icon }} ms-2"></i
                   ></a>

@@ -108,8 +108,8 @@
   description: >-
     Set up an Azure SIEM that aggregates logs and detects intruders from which country based on the IP addresses.
   links:
-    - type: doc
-      url: https://almondine-patio-91e.notion.site/Azure-SIEM-40b70aa13c374e2fac18cde2609db53d
+    - type: blog
+      url: /posts/azure-siem
       icon: fa-solid fa-arrow-up-right-from-square
   tools:
     - Azure
@@ -124,8 +124,8 @@
   description: >-
     Set up an ELK SIEM on virtual machine that aggregates logs from other machines with an Elastic alert to detect any brute force attempt.
   links:
-    - type: doc
-      url: https://docs.google.com/document/d/1m-GjXPaztNhTjHj5QFmbi-yaJe3XKmWKoxXfjztCIOc/edit?tab=t.0#heading=h.oycgskol9t3q
+    - type: blog
+      url: /posts/elastic-server-from-scratch
       icon: fa-solid fa-arrow-up-right-from-square
   tools:
     - ELK
@@ -139,8 +139,8 @@
   description: >-
     Confi gured EDR in ELK and installed EDR agent into a Linux virtual machine aggregate logs and analyze the virtual machine to detect abnormal behaviour.
   links:
-    - type: doc
-      url: https://almondine-patio-91e.notion.site/Elastic-EDR-b75638c4578e40929e9a184aecbf6624
+    - type: blog
+      url: /posts/elastic-edr
       icon: fa-solid fa-arrow-up-right-from-square
   tools:
     - ELK
@@ -164,15 +164,15 @@
     - SOC
   image:
 
-- name: Remote Network Scanning
+- name: Reconnaissance Scanning
   description: >-
     An automation Bash script that run scanning on target’s network from a virtual machine under my control via Nipe VPN.
   links:
     - type: github
       url: https://github.com/firstwan/remote_scanner
       icon: fa-brands fa-github
-    - type: doc
-      url: https://docs.google.com/document/d/1gSMRt3LgDTw1tCTPTPEgbb15P7EWjQzFXxYxT-o4CNU/edit?tab=t.0#heading=h.oycgskol9t3q
+    - type: blog
+      url: /posts/remote-scaning
       icon: fa-solid fa-arrow-up-right-from-square
   tools:
     - Bash
@@ -186,8 +186,8 @@
     - type: github
       url: https://github.com/firstwan/vulner
       icon: fa-brands fa-github
-    - type: doc
-      url: https://docs.google.com/document/d/18QPqQ9LBg_HKHjuUvm8OXgTSAIP8504E9Uo_N0m4KKU/edit?tab=t.0#heading=h.oycgskol9t3q
+    - type: blog
+      url: /posts/vulner-scan
       icon: fa-solid fa-arrow-up-right-from-square
   tools:
     - Bash

@@ -1,7 +1,7 @@
 ---
-title: Azure SIEM
+title: Azure SIEM Honeypot
 description: >-
-  Set up an Azure SIEM that aggregates logs and detects intruders from which country based on the IP addresses.
+  Set up an Honeypot that aggregates logs and detects intruders from which country based on the IP addresses.
 author: first_wan
 categories: [Cybersecurity, Project]
 tags: [SIEM, SOC]
