@@ -193,6 +193,20 @@
     - Bash
     - Pentest
   image:
+
+- name: Homelab Honeypot
+  description: >-
+    This project will setup a lab environment that have a honeypot server with a ELK server keep monitoring it and trigger an alert once unauthorized access to the honeypot server.
+  links:
+    - type: blog
+      url: /posts/homelab-honeypot/
+      icon: fa-solid fa-arrow-up-right-from-square
+  tools:
+    - SOC
+    - ELK
+  image:
+    path: /blogs/homelab_honeypot/network_1.png
+    alt: homelab_honeypot
 # - name:
 #   description: >-
 #   links:
