@@ -220,7 +220,9 @@ The script will create various outputs, and the users might want to review it or
 
 Although this script is made to automate vulnerability assessment, but there is no universal method to run a proper vulnerability assessment. It usually involves multiple thinking processes and needs to be flexible for different environments.
 
- This script just executes a very basic vulnerability assessment. Users should use this information as an aid in the vulnerability assessment.
+This script just executes a very basic vulnerability assessment. Users should use this information as an aid in the vulnerability assessment.
+
+You can access the Bash script from my [GitHub](https://github.com/firstwan/vulner)
 
 ## Reference
 
