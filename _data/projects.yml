@@ -156,8 +156,8 @@
     - type: github
       url: https://github.com/firstwan/log_analyzer
       icon: fa-brands fa-github
-    - type: doc
-      url: https://docs.google.com/document/d/1XBEgIlWnNRETpKHQmoHvLuHWpvTpb9lVheaqu_lnMTI/edit?tab=t.0#heading=h.oycgskol9t3q
+    - type: blog
+      url: /posts/auth-log-analyzer
       icon: fa-solid fa-arrow-up-right-from-square
   tools:
     - Bash
