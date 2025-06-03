@@ -6,7 +6,7 @@ tags: [SQL Injection, Hacker101, CTF]
 pin: false
 ---
 
-This CTF is provided by Hacker101 with Moderate difficulty. It have 3 flags to find.
+This CTF is provided by Hacker101 with moderate difficulty. It have 3 flags to find.
 
 ## Reconnaissance
 
